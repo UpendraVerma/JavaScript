@@ -1,0 +1,13 @@
+var data = [20,30,60,10,26,19,90];
+for(var i=0;i<data.length;i++)
+{
+    for(var j=0;j<1;j++)
+    {
+        if(data[i]<data[j]){
+            var x=data[i];
+            data[i]=data[j];
+            data[j]=x;
+        }
+    }
+}
+console.log(data)
